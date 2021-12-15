@@ -24,11 +24,11 @@ import os
 
 os.environ['SQLANY_API_DLL'] = 'C:\Program Files\SQL Anywhere 16\Bin64\dbcapi.dll'
 
-server="172.16.123.68"
-database="asiqpre"
-port="2890"
-user="llsanchez"
-password="muv5M+rQ2pDYr&*+"
+server=""
+database=""
+port=""
+user=""
+password=""
 
 #con = sqlanydb.connect(userid='dba', password='sql', dbn='iqdemo', dbf='iqdemo.db')
 con=sqlanydb.connect(userid=user, pwd=password, servername='asiqpre1', host=server + ':' + port, dbn=database)
